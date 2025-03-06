@@ -288,6 +288,7 @@ radius = 6.0
 
 [node name="player" type="CharacterBody2D"]
 z_index = 5
+collision_layer = 3
 script = ExtResource("1_bhlva")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
