@@ -61,9 +61,7 @@ shape = SubResource("RectangleShape2D_2mwun")
 [node name="raycastright" type="RayCast2D" parent="."]
 position = Vector2(0, -5)
 target_position = Vector2(11, 0)
-collision_mask = 3
 
 [node name="raycastleft" type="RayCast2D" parent="."]
 position = Vector2(0, -5)
 target_position = Vector2(-11, 0)
-collision_mask = 3
