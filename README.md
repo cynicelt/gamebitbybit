@@ -13,9 +13,9 @@ I have a new plan I want to put in place.
 
 ## The new plan
 
-1. Create a simple platform with a simple character, basic animations and background
-2. Add collectible coins, add the result of the coin to an overall coin counter, play a sound when the coin is collected
-3. Add Nasties in. If the player touches the nasty (no matter where from), play a deed animation
+1. Create a simple platform with a simple character, basic animations and background <DONE>
+2. Add collectible coins, add the result of the coin to an overall coin counter, play a sound when the coin is collected <DONE>
+3. Add Nasties in. If the player touches the nasty (no matter where from), play a deed animation <DONE, NEEDS BUGFIXING>
 4. I called this the "Gainz" step while I was scribbling the notes for this approach on the train this morning - I have zero recollection of it except for a pencil-drawing saying "Blue Power". So I don't think I'm trying to establish some superior smurf-race, I think what I mean by this isss......ADD MORE COLLECTIBLES, MAKE THEM BLUE BOTTLES, BLUE BOTTLES GIVE THE PLAYER INFALLIBILITY FOR 30 SECONDS OR SUMMAT
 5. Theme Change. There are multiple colour schemes available in the free tileset I've downloaded, I'm going to change the background music when the player walks into each new colour scheme. I'm going to limit the changes to 2 for this game.
 6. SWORDS. ADD SWORDS. Collect the Sword, which then attaches itself to your character, add a sword animation and key binding, and use it to deed nasties. This is a ridiculously large step in comparison to the others so I may end up breaking this one down.
