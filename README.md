@@ -23,7 +23,7 @@ I have a new plan I want to put in place.
 8. ADD A SHOP. This is a stupidly large step so I may break this down again. I'll need to figure out ANOTHER key binding.
 
 Number of key bindings:
-- Up, Left, Right > OBVIOUSLY
+- Up, Left, Right > OBVIOUSLY  <DONE>
 - 'Interact' > open door
 - 'Swing sword' > erm, well...swing de sword
 - 'Drink the BLUE BOTTLE' > I don't know why I've now permanently capitalised the powerup but here we are, enjoy the ride.
