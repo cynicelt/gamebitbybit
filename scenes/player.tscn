@@ -164,7 +164,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"dead",
-"speed": 10.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -181,7 +181,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 10.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -293,9 +293,9 @@ script = ExtResource("1_bhlva")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_jo7ti")
-animation = &"idle"
+animation = &"move"
 autoplay = "idle"
-frame_progress = 0.678737
+frame_progress = 0.715944
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5)

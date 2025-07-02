@@ -50,9 +50,10 @@ script = ExtResource("1_4ddvd")
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_cgq2s")
 autoplay = "default"
-frame_progress = 0.874402
+frame_progress = 0.904849
 
 [node name="killzone" parent="." instance=ExtResource("2_skblu")]
+collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="killzone"]
 position = Vector2(0, -6)

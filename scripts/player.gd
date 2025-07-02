@@ -22,12 +22,21 @@ func _physics_process(delta: float) -> void:
 	#get the direction, -1 is left
 	
 	if is_on_floor():
+		#flip the sprite based on whether the player hits left or right
+		
 		if direction > 0:
 			animated_sprite.flip_h = false
 		elif direction < 0:
 			animated_sprite.flip_h = true
+			
+		#play animations based on the direction
+		if direction ==0:
+			animated_sprite.play('idle')
+		else:
+			animated_sprite.play('move')
+			
 		velocity.x = direction * SPEED
-		animated_sprite.play('move')
+		
 		
 	elif not is_on_floor():
 		if direction > 0:
