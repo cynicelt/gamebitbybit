@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=4 uid="uid://5uudj45xqcbv"]
+[gd_scene load_steps=22 format=4 uid="uid://5uudj45xqcbv"]
 
 [ext_resource type="PackedScene" uid="uid://dboxh7p4hiyb8" path="res://scenes/player.tscn" id="1_p7btn"]
 [ext_resource type="Texture2D" uid="uid://bm77ev17vy667" path="res://sprites/world_tileset.png" id="2_m76m1"]
@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bmqxteyvp4obr" path="res://scenes/greenmovingplatform.tscn" id="7_tlaev"]
 [ext_resource type="PackedScene" uid="uid://b7lbn8fsxla3e" path="res://scenes/coin_gui.tscn" id="8_10cdf"]
 [ext_resource type="PackedScene" uid="uid://dol14qw423wbv" path="res://scenes/animated_shop.tscn" id="9_t2cuv"]
+[ext_resource type="PackedScene" uid="uid://c6sf6hfvvcncr" path="res://scenes/blue_pot.tscn" id="10_xshri"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_04cmj"]
 texture = ExtResource("2_m76m1")
@@ -468,3 +469,6 @@ autoplay = "lower_platform"
 
 [node name="AnimatedSprite2D" parent="." instance=ExtResource("9_t2cuv")]
 position = Vector2(2250, 41)
+
+[node name="BluePot" parent="." instance=ExtResource("10_xshri")]
+position = Vector2(91, -45)

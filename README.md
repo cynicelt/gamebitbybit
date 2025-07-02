@@ -26,7 +26,7 @@ Number of key bindings:
 - Up, Left, Right > OBVIOUSLY  <DONE>
 - 'Interact' > open door
 - 'Swing sword' > erm, well...swing de sword
-- 'Drink the BLUE BOTTLE' > I don't know why I've now permanently capitalised the powerup but here we are, enjoy the ride.
+- 'Drink the BLUE BOTTLE' > I don't know why I've now permanently capitalised the powerup but here we are, enjoy the ride. <kinda done - added blue bottle and made it 'collectable'>
 
 If you have come across this project - you are welcome to fork, contribute etc, this is a freely available code walkthrough on YouTube (thank you to Brackeys, you are wicked and I have watched this video farrrr too many times to be socially acceptable)
 
